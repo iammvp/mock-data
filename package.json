@@ -1,0 +1,24 @@
+{
+  "name": "mock-json",
+  "version": "1.0.0",
+  "description": "a simple mock json data generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iammvp/mock-data.git"
+  },
+  "keywords": [
+    "mock",
+    "json",
+    "generator"
+  ],
+  "author": "Mi Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iammvp/mock-data/issues"
+  },
+  "homepage": "https://github.com/iammvp/mock-data#readme"
+}
