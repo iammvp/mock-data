@@ -1,0 +1,29 @@
+[{
+        "key": "id",
+        "type": "index",
+        "start": 1000
+    },
+    {
+        "key": "test",
+        "type": "number",
+        "range": [10, 20]
+    },
+    {
+        "key": "sd",
+        "type": "array",
+        "length": 10,
+        "schema": [
+            {
+                "key": "price",
+                "type": "number",
+                "range": ["10", "20"],
+                "decimal": 2
+            },
+            {
+                "key": "wid",
+                "type": "index",
+                "start": 10010
+            }
+        ]
+    }
+]
