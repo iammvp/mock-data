@@ -1,8 +1,11 @@
 {
-  "name": "mock-json",
+  "name": "mock-json-data",
   "version": "1.0.0",
   "description": "a simple mock json data generator",
   "main": "index.js",
+  "bin": {
+    "mock": "./mock.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,9 +21,9 @@
   "author": "Mi Li",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iammvp/mock-data/issues"
+    "url": "https://github.com/iammvp/mock-json-data/issues"
   },
-  "homepage": "https://github.com/iammvp/mock-data#readme",
+  "homepage": "https://github.com/iammvp/mock-json-data#readme",
   "devDependencies": {
     "eslint": "^4.8.0",
     "eslint-config-airbnb-base": "^12.0.2",
@@ -28,6 +31,7 @@
   },
   "dependencies": {
     "chalk": "^2.1.0",
+    "commander": "^2.11.0",
     "dateformat": "^3.0.2",
     "lorem-ipsum": "^1.0.4"
   }

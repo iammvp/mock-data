@@ -1,0 +1,28 @@
+[{
+        "key": "information",
+        "type": "exactly",
+        "value": "The information about group"
+    },
+    {
+        "key": "groupMemberLists",
+        "type": "array",
+        "length": 100,
+        "schema": [
+            {
+                "key": "fistName",
+                "type": "enum",
+                "value": ["Allison","Arthur","Ana","Alex","Arlene","Alberto","Barry","Bertha","Bill"]
+            },
+            {
+                "key": "lastName",
+                "type": "enum",
+                "value":["Woodward","Wooten","Workman","Wright","Wyatt","Wynn","Yang","Yates","York","Young","Zamora"]
+            },
+            {
+                "key":"birthday",
+                "type":"date",
+                "range":["1989-01-01","1991-12-31"]
+            }
+        ]
+    }
+]

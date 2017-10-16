@@ -1,28 +1,34 @@
-[{
-        "key": "id",
-        "type": "index",
-        "start": 1000
-    },
+[
     {
-        "key": "test",
-        "type": "number",
-        "range": [10, 20]
-    },
-    {
-        "key": "sd",
-        "type": "array",
-        "length": 10,
-        "schema": [
+        "key":"movieLists",
+        "type":"array",
+        "length":50,
+        "schema":[
             {
-                "key": "price",
-                "type": "number",
-                "range": ["10", "20"],
-                "decimal": 2
+                "key":"movieId",
+                "type":"index",
+                "start":10000
             },
             {
-                "key": "wid",
-                "type": "index",
-                "start": 10010
+                "key":"movieName",
+                "type":"word",
+                "length":3
+            },
+            {
+                "key":"movieType",
+                "type":"enum",
+                "value":["2d","3d","3d-max","i-max"]
+            },
+            {
+                "key":"time",
+                "type":"date",
+                "range":["2017-05-01","2017-10-01"]
+            },
+            {
+                "key":"score",
+                "type":"number",
+                "decimal":1,
+                "range":[0,100]
             }
         ]
     }
