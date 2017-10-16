@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iammvp/mock-data.git"
+    "url": "git+https://github.com/iammvp/mock-json-data.git"
   },
   "keywords": [
     "mock",

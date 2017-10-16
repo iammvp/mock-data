@@ -1,4 +1,4 @@
-# mock-json-data
+# mock-json-data [(中文)](README_CN.md)
 A easy use mock json data generator npm cli tool for front-end engineer.
 
 ### Installation
